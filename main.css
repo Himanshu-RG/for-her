@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(0deg, rgb(255, 127, 197), #ff8bbc, #fc9dc4);
+    color: white;
+    padding: 28px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 40px rgb(255, 103, 128);
+    padding: 20px;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.2em;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.playlist {
+    margin-top: 20px;
+}
+.countup {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.love-button {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.love-message {
+    position: absolute;
+    font-size: 1.5em;
+    color: white;
+    opacity: 1;
+    animation: fadeOut 2s forwards;
+}
+@keyframes fadeOut {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-50px); }
+}
